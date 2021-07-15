@@ -1,0 +1,8 @@
+query
+-------------------------------------------------------------------------
+select * from products where name ilike '%bebek%' and master_product_id is not NULL order by master_product_id
+
+kosinüs benzerliği
+------------------------------------------------------------
+0.3 Tog Zoo Zoo Bebek Uyku Tulumu ve 0.5 Tog Zoo Zoo Bebek Uyku Tulumu benzerliğini 1 buluyor.
+GOON MUTLU BEBEK KULOT JUMBO 6 (24) ve Goon Mutlu Bebek Külot Jumbo 6 (24 Adet) türkçe karakter sorunu nedeniyle 0.7 buluyor.
