@@ -3,11 +3,11 @@ import psycopg2.extras
 
 class ConnectDatabase():
 	DB_SETTINGS = {
-					"db" : 'mini_bzsaas',
-					"user" : "postgres",
-					"passwd" : "pV29wbz!t1fP?",
-					"host" : "85.95.238.204",
-					"port" : "9149",
+					"db" : '',
+					"user" : "",
+					"passwd" : "",
+					"host" : "",
+					"port" : "",
 				}
 
 	def connect_db(self):
